@@ -1,0 +1,51 @@
+.card {
+  border-width: 6px 0px 0px 0px;
+  border-style: solid;
+  box-shadow: 3px 6px 26px 1px #000000;
+  border-radius: 20px;
+  width: 23vw;
+  height: 27vh;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.amarillo {
+  border-color: #ffc702;
+}
+.naranja {
+  border-color: #ff7405;
+}
+.rojo {
+  border-color: #dd191a;
+}
+.verde {
+  border-color: #79b901;
+}
+.azul {
+  border-color: #014d5d;
+}
+.violeta {
+  border-color: #782364;
+}
+.morado {
+  border-color: #571845;
+}
+.magenta {
+  border-color: #900c3e;
+}
+.fucsia {
+  border-color: #c70039;
+}
+.card:hover {
+  box-shadow: 7px 8px 10px 1px rgba(255, 255, 255, 0.25);
+  border-width: 6px 1px 1px 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80vw;
+    height: 30vh;
+    padding: 5vw;
+  }
+}

@@ -1,0 +1,14 @@
+.cardsGroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardsGroup a {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .cardsGroup {
+    flex-direction: column;
+    gap: 2vh;
+  }
+}

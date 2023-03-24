@@ -1,0 +1,32 @@
+.footer .email {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.01) -120.36%,
+    rgba(29, 29, 29, 0.01) 100%
+  );
+  box-shadow: inset 0px 64px 130px #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.footer img {
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+    padding: 5vh;
+  }
+}
