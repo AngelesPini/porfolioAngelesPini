@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <Link to='https://github.com/AngelesPini' target='_blank'><img src={Github} alt="linkedin" /></Link>
 
-                <Link to='https://drive.google.com/file/d/1PaCzY430XfhZbpSIi_zNNv7GAFedN-F4/view?usp=sharing' target='_blank'><img src={Resume} alt="linkedin" /></Link>
+                <Link to='https://drive.google.com/file/d/1dim1aH_E9imrLGlXOrKuVvLNdhoC2JJP/view?usp=sharing' target='_blank'><img src={Resume} alt="linkedin" /></Link>
             </div>
             <div className="email">
                 <img src={EMial} alt="icono de email" />
